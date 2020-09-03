@@ -14,13 +14,14 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-commentary'
 Plug 'vim-scripts/matchit.zip'
 Plug 'terryma/vim-multiple-cursors'
-Plug 'scrooloose/nerdtree'
+Plug 'preservim/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
-Plug 'xuyuanp/nerdtree-git-plugin'
-Plug 'ryanoasis/vim-devicons'
+"Plug 'xuyuanp/nerdtree-git-plugin'
+"Plug 'ryanoasis/vim-devicons'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'rust-lang/rust.vim', { 'for': 'rust' }
 
 call plug#end()
 
 runtime! vim.d/*.vim
+
