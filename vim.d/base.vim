@@ -1,6 +1,6 @@
 let mapleader = "\<Space>"
 
-set mouse=a
+"set mouse=a
 set autoread
 set backspace=2
 set breakindent
